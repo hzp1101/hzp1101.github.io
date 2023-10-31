@@ -1,0 +1,77 @@
+/* CSS Document */
+
+
+        .timu {
+            background-color: cadetblue;
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        .timu div {
+            background-color: rgb(72, 72, 85);
+            color: white;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .timu div:first-child {
+            margin-top: 20px;
+        }
+
+        .timu div:hover {
+            background-color: skyblue;
+            color: rgb(255, 255, 255);
+        }
+
+        .timu .daan {
+            background-color: brown;
+            color: yellow;
+            display: none;
+        }
+
+        #info {
+            position: fixed;
+			top:30%;
+            width: 100px;
+            height: 50px;
+            background-color: rgb(234, 0, 255);
+            box-shadow: 1px 2px 1px gray;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        #tishi {
+            position: fixed;
+            background-color: blueviolet;
+            width: 200px;
+            height: 200px;
+            left: calc(50% - 100px);
+            top: calc(50% - 100px);
+            display: none;
+        }
+
+        #tishi .title {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #tishi img {
+            position: relative;
+            left: 20px;
+            top: -30px;
+            width: 160px;
+            height: 160px;
+        }
+    .timu {
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
